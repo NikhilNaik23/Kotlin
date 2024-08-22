@@ -17,4 +17,5 @@ fun main(args: Array<String>){
     else{
         println("Safe Casting")
     }
+
 }

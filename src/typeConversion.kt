@@ -10,8 +10,13 @@ fun main(args: Array<String>){
 //    var c:Int=a as Int
 //    println("ClassCastException")
 
-    var d:Int = a as? Int
-    if (d!=null)
+    var d:Int? = a as? Int
+    if (d!=null){
+        println("the value of d is $d")
+    }
+    else{
+        println("Safe Casting")
+    }
 
 
 

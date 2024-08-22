@@ -27,6 +27,13 @@ fun main()
             println(j)
         }
     }
+    println()
    //Create a 3*3 matrix and print it
-
+    var three_three = arrayOf(arrayOf(1,2,3), arrayOf(4,5,6), arrayOf(7,8,9))
+    for (i in three_three){
+        for (j in i){
+            print("$j ")
+        }
+        println()
+    }
 }

@@ -54,6 +54,6 @@ fun main(args:Array<String>){
     println("The value of n = ${n}")
     println()
     //BitWise Operators
-
+    println()
 
 }

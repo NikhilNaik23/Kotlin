@@ -56,7 +56,8 @@ fun main(args:Array<String>){
         println("Invalid Arithmetic Operator")
     }*/
 
-    val age=20
+    //in Operator and ..(rangeTo method)
+    /*val age=20
     if(age < 13){
         println("Child")
     }
@@ -68,5 +69,35 @@ fun main(args:Array<String>){
     }
     else{
         println("Senior")
+    }*/
+
+    //When as a Expression
+    /*
+        val result = when (expression){
+            value1 ->result1
+            value2 -> result2
+            else -> default
+        }
+     */
+
+    val dayOfWeek=6
+    val dayName=when(dayOfWeek){
+        1->"Monday"
+        2->"Tuesday"
+        3->"Wednesday"
+        4->"Thursday"
+        5->"Friday"
+        6->"Saturday"
+        7->"Sunday"
+        else->"Invalid day"
+    }
+    println("Day of the week: $dayName")
+
+    //when as a statement
+    var number=9
+    when{
+        number%2==0-> println("$number is even")
+        number%2!=0-> println("$number is odd")
+        else-> println("Invalid Number")
     }
 }

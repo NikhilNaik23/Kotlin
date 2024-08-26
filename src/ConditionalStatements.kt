@@ -29,7 +29,7 @@ fun main(args:Array<String>){
         println("Grade: D")
     }*/
 
-    var a=5;
+    /*var a=5;
     var b=8;
     var operator='/';
     if(operator == '+'){
@@ -54,5 +54,19 @@ fun main(args:Array<String>){
     }
     else{
         println("Invalid Arithmetic Operator")
+    }*/
+
+    val age=20
+    if(age < 13){
+        println("Child")
+    }
+    else if(age in 13..19){
+        println("Teenage")
+    }
+    else if(age in 20..64){
+        println("Adult")
+    }
+    else{
+        println("Senior")
     }
 }

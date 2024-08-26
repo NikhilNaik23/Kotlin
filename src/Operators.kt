@@ -54,6 +54,7 @@ fun main(args:Array<String>){
     println("The value of n = ${n}")
     println()
     //BitWise Operators
-    println()
+    println("${n.shl(1)}")//6
+    println("${n.shr(1)}")//1
 
 }

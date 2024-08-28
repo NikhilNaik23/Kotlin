@@ -16,5 +16,4 @@ fun main(args:Array<String>){
     greet()
     println("Bye")
     println(sum(2,3))
-    println(sum(10,20))
 }
